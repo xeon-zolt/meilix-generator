@@ -20,7 +20,9 @@ the application will greet you on
 
 Setting up Travis With meilix (the repo used for generation of ISO)
 
-* 
+* Travis Env Variables
+
+![travis env variable](https://github.com/xeon-zolt/meilix-generator/blob/update-Readme/ScreenShots/travis-Env-Variables.png?raw=true)
 
 Adding Env Variables in Travis 
 

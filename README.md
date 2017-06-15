@@ -18,7 +18,16 @@ flask run
 the application will greet you on
          http://localhost:5000/
 
+Setting up Travis With meilix (the repo used for generation of ISO)
 
+* 
 
+Adding Env Variables in Travis 
+
+*
+
+Adding Env Variables In Heroku
+
+*
 
 ###### for building OS using meilix scripts with the help of a web app

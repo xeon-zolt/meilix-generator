@@ -99,4 +99,6 @@ def application_error(e):
 	return 'Sorry, unexpected error: {}'.format(e), 500
 
 if __name__ == '__main__':
-	app.run()
+    app.run()
+    with app.test_request_context():
+        url_for('index')

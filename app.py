@@ -75,7 +75,7 @@ def test_page():
 		print ('/test called')
 		return send_from_directory('static','test.html')
 	else:
-		return redirect(url_for('index'))
+		return redirect(url_for('.index))
 
 	return Response(inner())  # text/html is required for most browsers to show th$
 
@@ -100,5 +100,3 @@ def application_error(e):
 
 if __name__ == '__main__':
     app.run()
-    with app.test_request_context():
-        url_for('index')
